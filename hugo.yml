@@ -1,7 +1,0 @@
-baseURL: 'https://roomelephant.com/'
-languageCode: 'en-us'
-title: 'Room elephant'
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
