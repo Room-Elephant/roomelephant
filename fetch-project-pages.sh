@@ -97,9 +97,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
 
     transform_image_paths "$TARGET_PATH" "$URL"
 
-    if ! grep -q "^---" "$target_path"; then
-        apply_hugo_front_matter "$file_path" "$target_path"
-    fi
+    apply_hugo_front_matter "$file_path" "$target_path"
 
 done < "$PROPERTIES_FILE"
 
