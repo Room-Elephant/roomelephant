@@ -31,8 +31,6 @@ theme = "rusty-typewriter"
   countPageItems = 7
 
 [params.rtwt.home]
-  showBio = true
-  showAuthorImg = true
   sidePaneTags = true
   showFeatured = true
   showRecent = true
@@ -51,4 +49,8 @@ theme = "rusty-typewriter"
   showAttachments = true
   showRelated = true
   countRelated = 5
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
     
