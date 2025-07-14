@@ -1,6 +1,6 @@
 baseURL = "https://roomelephant.com/"
 languageCode = "en-us"
-title = "Room elephant"
+title = "Room Elephant"
 theme = "rusty-typewriter"
 
 [module]
@@ -37,15 +37,15 @@ theme = "rusty-typewriter"
 
 [rusty_typewriter]
   [params.rtwt]
-    sidePane = true
+    sidePane = false
     countPageItems = 7 
     searchPath = 'search'
   [params.rtwt.home]
-    showBio = true
-    showAuthorImg = true
-    sidePaneTags = true
+    showBio = false
+    showAuthorImg = false
+    sidePaneTags = false
     showFeatured = true
-    showRecent = true
+    showRecent = false
     hideRecentWhenFeatured = true
     countRecent = 5
   [params.rtwt.side.home]
