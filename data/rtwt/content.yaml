@@ -1,0 +1,18 @@
+home:
+  image: 'images/greetings.jpg'
+  greetings: 'A Hugo Theme for Bloggers!'
+  text: 'The definitive, configurable, customizable, old fashioned rusty coloured theme for web writers and readers.'
+side:
+  home:
+    - title: 'Media Support'
+      content: 'Side content can have images!'
+      imagePath: 'images/hugo.svg'
+      imageHref: 'https://gohugo.io'
+      imageWidth: '100%'
+  single:
+  - title: 'Media Support 2'
+    content: 'Side content can have images!'
+    imagePath: 'images/hugo.svg'
+    imageHref: 'https://gohugo.io'
+    imageWidth: '100%'
+

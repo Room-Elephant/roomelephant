@@ -1,18 +1,18 @@
----
-title: "Elephub"
-draft: false
----
-# ElephLink
++++
+title = "Elephlink"
+tags = ["java", "dns", "cloudflare", "dns-updater"]
+topics = ["projects"]
+featured = true
+date = "2025-06-24"
++++
 
-[![‎ ](https://img.shields.io/badge/%E2%80%8E-room--elephant/ElephLink-green?style=flat&logo=github&link=https://github.com/Room-Elephant/ElephLink)](https://github.com/Room-Elephant/ElephLink) [![‎ ](https://img.shields.io/badge/%E2%80%8E-roomelephant/elephlink-green?style=flat&logo=docker&link=https://hub.docker.com/r/roomelephant/elephlink)](https://hub.docker.com/r/roomelephant/elephlink)
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Room-Elephant_ElephLink&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Room-Elephant_ElephLink) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Room-Elephant_ElephLink&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Room-Elephant_ElephLink) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Room-Elephant_ElephLink&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Room-Elephant_ElephLink) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Room-Elephant_ElephLink&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Room-Elephant_ElephLink)
-
-**ElephLink** is a powerful, lightweight Dynamic DNS (DDNS) client that uses the Cloudflare API to keep your domain name pointing
-to your home network.
-
-It allows you to reliably access self-hosted services (like a NAS, media server, or smart home hub) via a custom domain, even when
-your Internet Service Provider assigns you a dynamic IP address.
+<div align="center">
+	<img src="elephlink.png"  height="150"  />
+	<h1>Elephlink</h1>
+  <p><b>A powerful, lightweight Dynamic DNS client that uses the Cloudflare API to keep your domain name pointing to your home network.</p>
+  <p>It allows you to reliably access self-hosted services (like a NAS, media server, or smart home hub) via a custom domain, even when
+your Internet Service Provider assigns you a dynamic IP address.</p>
+</div>
 
 ## 🔥 Why Elephlink?
 
