@@ -1,6 +1,6 @@
 baseURL = "https://roomelephant.com/"
 languageCode = "en-us"
-title = "Room elephant"
+title = "Room Elephant"
 theme = "rusty-typewriter"
 
 [module]
