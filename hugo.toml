@@ -3,54 +3,61 @@ languageCode = "en-us"
 title = "Room elephant"
 theme = "rusty-typewriter"
 
+[module]
+ [module.hugoVersion]
+  extended = false
+  min = "0.116.0"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
 [menu]
-
   [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-
   [[menu.main]]
     name = "Projects"
     url = "/projects/"
     weight = 2
-
   [[menu.main]]
     name = "Blog"
     url = "/blog/"
     weight = 3
 
-
-[params.rtwt]
-  sidePane = true
-  countPageItems = 7
-
-[params.rtwt.home]
-  sidePaneTags = true
-  showFeatured = true
-  showRecent = true
-  hideRecentWhenFeatured = true
-  countRecent = 5
-
-[params.rtwt.side.home]
-  sidePaneSticky = false
-  taxonomies = ['tags']
-  countTaxonomy = 5
-
-[params.rtwt.side.single]
-  sidePaneSticky = true
-  showDetails = true
-  showTableOfContents = true
-  showAttachments = true
-  showRelated = true
-  countRelated = 5
-
 [taxonomies]
   tag = "tags"
   category = "categories"
-    
+
+[params.links]
+  hugo = 'https://gohugo.io/'
+  theme = 'https://github.com/math-queiroz/rusty-typewriter'
+
+[rusty_typewriter]
+  [params.rtwt]
+    sidePane = true
+    countPageItems = 7 
+    searchPath = 'search'
+  [params.rtwt.home]
+    showBio = true
+    showAuthorImg = true
+    sidePaneTags = true
+    showFeatured = true
+    showRecent = true
+    hideRecentWhenFeatured = true
+    countRecent = 5
+  [params.rtwt.side.home]
+    sidePaneSticky = false 
+    taxonomies = ['tags']
+    countTaxonomy = 6
+  [params.rtwt.side.list]
+    sidePaneSticky = false
+  [params.rtwt.side.single]
+    sidePaneSticky = true 
+    showDetails = true
+    showTableOfContents = true
+    showAttachments = true
+    showRelated = true
+    countRelated = 5
