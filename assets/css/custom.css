@@ -1,0 +1,8 @@
+header#main-header {
+  margin-bottom: 1rem !important;
+}
+
+:root[color-scheme^='dark'] {
+  --primary-color: #5c8aff !important;
+  --selection-color: #3c5f8a !important;
+}
