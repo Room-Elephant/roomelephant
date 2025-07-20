@@ -1,9 +1,7 @@
 +++
 title = "Your Second Post Title"
 date = "2024-03-28"
-tags = ["tag1", "tag2"]
-topics = ["topic1"]
-my_taxonomies = ["value"]
+draft = true
 +++
 
 ## What is Lorem Ipsum?
