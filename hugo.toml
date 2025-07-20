@@ -61,3 +61,20 @@ theme = "rusty-typewriter"
     showAttachments = true
     showRelated = true
     countRelated = 5
+
+
+# build search index ================
+[outputFormats]
+ [outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "searchindex"
+  isPlainText = true
+  notAlternative = true
+
+[mediaTypes]
+ [mediaTypes."application/json"]
+  suffixes = ["json"]
+
+[outputs]
+ home = ["HTML","RSS", "SearchIndex", "Robots"]
+# ===================================
