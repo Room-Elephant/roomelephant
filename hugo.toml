@@ -62,7 +62,6 @@ theme = "rusty-typewriter"
     showRelated = true
     countRelated = 5
 
-# build search index ================
 [outputFormats]
  [outputFormats.SearchIndex]
   mediaType = "application/json"
@@ -76,4 +75,3 @@ theme = "rusty-typewriter"
 
 [outputs]
  home = ["HTML","RSS", "SearchIndex", "Robots"]
-# ===================================
